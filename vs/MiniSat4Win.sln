@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zlib", "Zlib\Zlib.vcxproj", "{424703CD-7CB8-4028-B1EA-B27017BB98E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniSatCore", "MiniSatCore\MiniSatCore.vcxproj", "{C8215824-BACA-47FD-BC9B-DB2B04CB0383}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92} = {B63158A9-8842-4ACA-AB07-6DCA415A7B92}
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4} = {424703CD-7CB8-4028-B1EA-B27017BB98E4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniSatSimp", "MiniSatSimp\MiniSatSimp.vcxproj", "{F1415D50-80B2-46E8-91E2-9EB5FB806122}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92} = {B63158A9-8842-4ACA-AB07-6DCA415A7B92}
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4} = {424703CD-7CB8-4028-B1EA-B27017BB98E4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniSatCommon", "MiniSatCommon\MiniSatCommon.vcxproj", "{B63158A9-8842-4ACA-AB07-6DCA415A7B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Debug|x64.ActiveCfg = Debug|x64
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Debug|x64.Build.0 = Debug|x64
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Debug|x86.Build.0 = Debug|Win32
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Release|x64.ActiveCfg = Release|x64
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Release|x64.Build.0 = Release|x64
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Release|x86.ActiveCfg = Release|Win32
+		{424703CD-7CB8-4028-B1EA-B27017BB98E4}.Release|x86.Build.0 = Release|Win32
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Debug|x64.ActiveCfg = Debug|x64
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Debug|x64.Build.0 = Debug|x64
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Debug|x86.Build.0 = Debug|Win32
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Release|x64.ActiveCfg = Release|x64
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Release|x64.Build.0 = Release|x64
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Release|x86.ActiveCfg = Release|Win32
+		{C8215824-BACA-47FD-BC9B-DB2B04CB0383}.Release|x86.Build.0 = Release|Win32
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Debug|x64.ActiveCfg = Debug|x64
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Debug|x64.Build.0 = Debug|x64
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Debug|x86.Build.0 = Debug|Win32
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Release|x64.ActiveCfg = Release|x64
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Release|x64.Build.0 = Release|x64
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Release|x86.ActiveCfg = Release|Win32
+		{F1415D50-80B2-46E8-91E2-9EB5FB806122}.Release|x86.Build.0 = Release|Win32
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Debug|x64.ActiveCfg = Debug|x64
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Debug|x64.Build.0 = Debug|x64
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Debug|x86.ActiveCfg = Debug|Win32
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Debug|x86.Build.0 = Debug|Win32
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Release|x64.ActiveCfg = Release|x64
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Release|x64.Build.0 = Release|x64
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Release|x86.ActiveCfg = Release|Win32
+		{B63158A9-8842-4ACA-AB07-6DCA415A7B92}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B04C487-0490-4111-9742-255B50CD0923}
+	EndGlobalSection
+EndGlobal
